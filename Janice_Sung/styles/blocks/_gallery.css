@@ -1,0 +1,20 @@
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 0 4rem 0;
+}
+
+.gallery ul li{
+    height: 478px;
+}
+
+
+.gallery ul img {
+    width: 358px;
+    height: 478px;
+    object-fit: cover;
+}

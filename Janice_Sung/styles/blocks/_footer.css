@@ -1,0 +1,104 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+
+
+ footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 398px;
+    margin: 0 auto;
+ }
+
+footer section h1{
+    font-family: "Unbounded" ;
+    font-weight: 200;
+    font-size: 55px;
+    margin-bottom: 1.5rem;
+    
+}
+
+footer section p{
+    font-family: "Lora",serif;
+    font-size: 14px;
+    align-self: flex-start;
+    margin-bottom: 5px;
+
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+    width: 438px;
+    margin: 0 auto;
+    
+}
+
+footer form fieldset{
+    border: none;
+    display: flex;
+    gap: 8px;
+    
+
+}
+
+footer form fieldset .name, footer form fieldset .surname{
+    width: 215px;
+}
+
+label {
+    font-family: "Lora",serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+
+footer form div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer form input{
+    background-color: var(--input);
+    height: 41px;
+    border: 0.2px solid rgb(184, 183, 183);
+    margin-bottom: 2rem;
+    border-radius: 2px;
+    outline: none;
+}
+
+
+footer form textarea{
+    height: 100px;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+    background-color: var(--input);
+    border: 0.2px solid rgb(184, 183, 183);
+}
+
+.send {
+    width: 124px;
+    height: 68px;
+    color: var(--button2);
+    border: 2px solid var(--button2);
+    font-family: "Unbounded";
+    font-size: 14px;
+    border-radius: 300px;
+    text-align: center;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.send:hover{
+    background-color: var(--button2);
+    color: var(--background);
+    
+}

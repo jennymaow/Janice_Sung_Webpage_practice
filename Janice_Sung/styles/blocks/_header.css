@@ -1,0 +1,87 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1110px;
+    padding: 47px 0 76.8px 0;
+    height: 10vh;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    gap: 1rem;
+    justify-self: left;
+    align-self: left;
+}
+
+.content li{
+    font-size: 12.4px;
+    letter-spacing: 1.12px;
+    color: var(--highlight);
+    text-transform: uppercase;
+    gap: 5rem;
+}
+
+.content li a:hover{
+    border-bottom: 1px solid var(--highlight);
+}
+
+header .logo-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo-image img{
+    height: 45px;
+    width: 244px;
+    align-self: center;
+    justify-self: center;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-left: 5rem;
+}
+
+.social li img{
+    display: flex;
+    align-items: center;
+
+    color: var(--highlight);
+    height: 17px;
+}
+
+button{
+    border-radius: 300px;
+    width: 124px;
+    height: 66px;
+    border: 2px solid var(--button);
+    font-weight: 900;
+    font-size: 12.464px;
+    padding: 23.8px 39.75px;
+    text-align: center;
+    background-color: var(--background);
+    font-family: "Unbounded";
+    font-weight: 300;
+    margin-left: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: var(--button);
+    color: var(--background);
+}
+

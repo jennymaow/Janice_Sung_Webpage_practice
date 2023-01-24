@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--background);
+    width: 100%;
+}
+
